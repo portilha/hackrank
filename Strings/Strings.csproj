@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A973B00D-9FF4-46C0-9796-69C55F9DF628}</ProjectGuid>
+    <ProjectGuid>{9DBEFF7F-5D8D-4F49-845E-511135EDA3E4}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Recursion</RootNamespace>
-    <AssemblyName>Recursion</AssemblyName>
+    <RootNamespace>Strings</RootNamespace>
+    <AssemblyName>Strings</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -31,8 +31,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ThePowerSum.cs" />
-    <Compile Include="RecursiveDigitSum.cs" />
+    <Compile Include="SuperReducedString.cs" />
+    <Compile Include="CamelCase.cs" />
+    <Compile Include="TwoCharacters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
