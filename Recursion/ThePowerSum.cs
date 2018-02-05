@@ -5,8 +5,7 @@ namespace Recursion
     [TestFixture()]
     public class ThePowerSum
     {
-
-
+        
         static int powerSum(int X, int P, int N = 1)
         {
             int i_pow = (int)Math.Pow(N, P);
@@ -19,12 +18,11 @@ namespace Recursion
                    powerSum(X - i_pow, P, N + 1);
         }
 
-
-
+        
         [Test()]
         public void TestCase()
         {
-            Assert.AreEqual(2, powerSum(10,2));
+            Assert.AreEqual(1, powerSum(10,2));
         }
 
         [Test()]
